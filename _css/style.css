@@ -1,0 +1,53 @@
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    left: 800px;
+    top: 40px;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: aquamarine;
+    padding: 15px;
+}
+body{
+    background-color: aquamarine;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    position: relative;
+}
+#img2{
+    width: 15%;
+}
+#img3{
+    width: 15%;
+}
+#img4{
+    width: 15%;
+}
+#img5{
+    width: 15%;
+}
+nav#menu a:link{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana;
+    font-weight: bold;
+    transition: all 0.8s ease;
+}
+nav#menu a:visited{
+    color: black;
+}
+nav#menu a:hover{
+    color: antiquewhite;
+}
